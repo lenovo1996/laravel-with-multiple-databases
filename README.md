@@ -7,5 +7,5 @@
 ## generate key
 - php artisan key:generate
 ## run migration
--- php artisan migrate --database=[your connection]
+- php artisan migrate --database=[your connection]
 (config connection name in ./config/database.php)
