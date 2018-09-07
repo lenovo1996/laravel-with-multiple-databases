@@ -2,7 +2,7 @@
 
 namespace App;
 
-class User extends BaseAuth
+class Customer extends BaseAuth
 {
     //
 }

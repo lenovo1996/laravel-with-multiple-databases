@@ -15,4 +15,14 @@ class BaseAuth extends BaseModel implements
     CanResetPasswordContract
 {
     use Authenticatable, Authorizable, CanResetPassword;
+
+    /**
+     * The attributes that should be hidden for arrays.
+     *
+     * @var array
+     */
+    protected $hidden = [
+        'password', 'remember_token',
+    ];
+
 }
